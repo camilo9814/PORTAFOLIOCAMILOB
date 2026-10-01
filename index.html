@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ============================================================
+       ÚNICAS LÍNEAS DE ESTE ARCHIVO QUE QUIZÁS QUIERAS CAMBIAR:
+       el título de la pestaña y la descripción que aparece en Google.
+       Todo el contenido visible se edita en contenido.js
+       ============================================================ -->
+  <title>Camilo Andrés Barba — Estudio Creativo 3D &amp; Retoque</title>
+  <meta name="description" content="Portafolio de Camilo Andrés Barba: modelado y animación 3D, retoque fotográfico high-end, ilustración digital e identidad visual desde Bogotá, Colombia.">
+  <meta property="og:title" content="Camilo Andrés Barba — Estudio Creativo 3D & Retoque">
+  <meta property="og:description" content="Modelado 3D, retoque fotográfico high-end, ilustración digital e identidad visual desde Bogotá.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#05070A">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2305070A'/%3E%3Ctext x='32' y='42' font-size='26' text-anchor='middle' fill='%232952FF' font-family='Georgia,serif' font-weight='800'%3ECB%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="saltar" href="#trabajos">Saltar al contenido</a>
+
+  <!-- ===================== BARRA SUPERIOR ===================== -->
+  <header class="barra">
+    <div class="barra__interior">
+      <a class="marca" href="#inicio">
+        <span class="marca__nombre" id="marcaNombre"></span>
+        <span class="marca__linea" id="marcaLinea"></span>
+      </a>
+
+      <nav class="menu" id="menu" aria-label="Principal">
+        <a href="#trabajos">Trabajo</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#fondos-ia">Fondos IA</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#contacto" id="menuContacto" target="_blank" rel="noopener">Contacto</a>
+      </nav>
+
+      <div class="barra__acciones">
+        <a class="boton boton--cobalto boton--barra" id="barraContacto" target="_blank" rel="noopener">Hablemos</a>
+        <button class="menu__hamburguesa" id="botonMenu" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menuMovil">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Menú de pantalla completa para móvil -->
+    <div class="menu-movil" id="menuMovil">
+      <a href="#trabajos">Trabajo</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#fondos-ia">Fondos IA</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#contacto" id="menuMovilContacto" target="_blank" rel="noopener">Contacto</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== 1. INICIO ===================== -->
+    <section class="hero" id="inicio">
+      <div class="resplandor resplandor--hero-1" aria-hidden="true"></div>
+      <div class="resplandor resplandor--hero-2" aria-hidden="true"></div>
+
+      <div class="contenedor">
+        <!-- Ceja superior -->
+        <div class="hero__ceja">
+          <div class="hero__disponibilidad">
+            <span class="punto-vivo"></span>
+            <span id="heroEstudio"></span>
+          </div>
+          <div class="hero__meta">
+            <span class="texto-tenue" id="heroDisciplinas"></span>
+            <span class="etiqueta-pill" id="heroDisponible"></span>
+          </div>
+        </div>
+
+        <!-- Titular editorial -->
+        <div class="hero__titular">
+          <div class="hero__columna-titulo">
+            <span class="hero__antetitulo">
+              <span class="hero__antetitulo-linea"></span>
+              <span id="heroAntetitulo"></span>
+            </span>
+            <h1 class="hero__nombre" id="heroTitulo"></h1>
+          </div>
+          <div class="hero__columna-texto">
+            <p class="texto-cuerpo-grande texto-tenue" id="heroPresentacion"></p>
+            <div class="hero__acciones">
+              <a class="boton boton--cobalto boton--grande" href="#trabajos">
+                <span id="heroBotonPortafolio"></span>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+              </a>
+              <a class="boton boton--fantasma boton--grande" id="heroBotonCotizar" target="_blank" rel="noopener">
+                <span id="heroBotonCotizarTexto"></span>
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M8 7h9v9"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vitrina bento -->
+        <div class="hero__bento">
+          <button class="pieza pieza--principal" id="heroPiezaPrincipal" type="button">
+            <img id="heroImgPrincipal" alt="">
+            <span class="pieza__velo"></span>
+            <span class="pieza__etiqueta pieza__etiqueta--flot" id="heroEtiquetaPrincipal"></span>
+            <span class="pieza__pie">
+              <span>
+                <span class="texto-tenue etiqueta-pequena" id="heroPrincipalMeta"></span>
+                <span class="pieza__titulo" id="heroPrincipalTitulo"></span>
+              </span>
+              <span class="pieza__flecha" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg>
+              </span>
+            </span>
+          </button>
+
+          <div class="hero__laterales">
+            <button class="pieza pieza--lateral" id="heroPiezaLateral1" type="button">
+              <img id="heroImgLateral1" alt="">
+              <span class="pieza__velo"></span>
+              <span class="pieza__etiqueta" id="heroEtiquetaLateral1"></span>
+              <span class="pieza__pie pieza__pie--simple">
+                <span class="pieza__titulo pieza__titulo--sm" id="heroLateral1Titulo"></span>
+              </span>
+            </button>
+            <button class="pieza pieza--lateral" id="heroPiezaLateral2" type="button">
+              <img id="heroImgLateral2" alt="">
+              <span class="pieza__velo"></span>
+              <span class="pieza__etiqueta" id="heroEtiquetaLateral2"></span>
+              <span class="pieza__pie pieza__pie--simple">
+                <span class="pieza__titulo pieza__titulo--sm" id="heroLateral2Titulo"></span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 2. SOBRE MÍ + CIFRAS ===================== -->
+    <section class="seccion seccion--media" id="sobre-mi">
+      <div class="contenedor">
+        <div class="marca-seccion">
+          <span class="indice-seccion" id="sm01"></span>
+          <span class="linea-h"></span>
+        </div>
+
+        <div class="grid-perfil">
+          <figure class="perfil__retrato">
+            <div class="perfil__marco">
+              <img id="perfilImg" alt="">
+              <span class="pieza__velo pieza__velo--sutil"></span>
+            </div>
+            <figcaption class="perfil__ficha">
+              <span>
+                <span class="etiqueta-pequena texto-tenue" id="perfilNombreFicha"></span>
+                <p class="texto-cuerpo-md" id="perfilRolFicha"></p>
+              </span>
+              <span class="etiqueta-pill etiqueta-pill--borde" id="perfilUbicacionFicha"></span>
+            </figcaption>
+            <span class="resplandor resplandor--perfil" aria-hidden="true"></span>
+          </figure>
+
+          <div class="perfil__texto">
+            <div>
+              <span class="antetitulo-cobalto" id="perfilAntetitulo"></span>
+              <h2 class="titular-lg" id="perfilTitulo"></h2>
+            </div>
+            <p class="texto-cuerpo-grande texto-tenue" id="perfilParrafo1"></p>
+            <p class="texto-cuerpo-md texto-tenue" id="perfilParrafo2"></p>
+
+            <div class="cifras" id="cifras"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 3. SERVICIOS ===================== -->
+    <section class="seccion" id="servicios">
+      <div class="contenedor">
+        <div class="cabecera-seccion">
+          <div>
+            <span class="indice-seccion" id="serv02"></span>
+            <h2 class="titular-lg" id="servTitulo"></h2>
+          </div>
+          <p class="texto-cuerpo-md texto-tenue cabecera-seccion__nota" id="servNota"></p>
+        </div>
+
+        <div class="rejilla-servicios" id="rejillaServicios"></div>
+      </div>
+    </section>
+
+    <!-- ===================== 4. FONDOS CON IA (COMPARADOR) ===================== -->
+    <section class="seccion seccion--media" id="fondos-ia">
+      <div class="resplandor resplandor--ia-1" aria-hidden="true"></div>
+      <div class="resplandor resplandor--ia-2" aria-hidden="true"></div>
+
+      <div class="contenedor">
+        <div class="cabecera-seccion cabecera-seccion--ia">
+          <div class="cabecera-seccion__bloque">
+            <div class="hero__disponibilidad">
+              <span class="punto-vivo"></span>
+              <span class="indice-seccion" id="ia04"></span>
+            </div>
+            <h2 class="titular-lg" id="iaTitulo"></h2>
+          </div>
+          <p class="texto-cuerpo-md texto-tenue cabecera-seccion__nota" id="iaNota"></p>
+        </div>
+
+        <div class="ia__grid">
+          <div class="ia__comparador-col">
+            <div class="comparador" id="comparadorIA">
+              <div class="comparador__marco">
+                <img class="comparador__img" id="iaDespues" alt="">
+                <div class="comparador__antes" id="iaAntesCapa">
+                  <img class="comparador__img" id="iaAntes" alt="">
+                </div>
+                <span class="comparador__etiqueta comparador__etiqueta--izq" id="iaEtiquetaAntes"></span>
+                <span class="comparador__etiqueta comparador__etiqueta--der" id="iaEtiquetaDespues"></span>
+                <div class="comparador__linea" id="iaLinea" aria-hidden="true">
+                  <span class="comparador__mango">⟨ ⟩</span>
+                </div>
+                <input class="comparador__rango" id="iaRango" type="range" min="0" max="100" value="50" step="0.1" aria-label="Deslizar para comparar antes y después">
+              </div>
+              <div class="comparador__pie">
+                <span class="comparador__pie-ayuda">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11V6a3 3 0 0 1 6 0v5M5 11h14l-1 9H6l-1-9Z"/></svg>
+                  <span id="iaAyuda"></span>
+                </span>
+                <span class="comparador__pie-nota" id="iaPieNota"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="ia__panel-col">
+            <div class="tarjeta">
+              <div class="tarjeta__cab">
+                <span class="etiqueta-pequena texto-cobalto" id="iaFichaTitulo"></span>
+              </div>
+              <dl class="ia__metricas" id="iaMetricas"></dl>
+            </div>
+            <div class="chips" id="iaChips"></div>
+
+            <a class="tarjeta tarjeta--interactiva" id="iaCTA" target="_blank" rel="noopener">
+              <span class="tarjeta__cab">
+                <strong class="titular-sm" id="iaCTATitulo"></strong>
+              </span>
+              <p class="texto-cuerpo-md texto-tenue" id="iaCTATexto"></p>
+              <span class="enlace-editorial" id="iaCTABoton"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 5. TRABAJOS ===================== -->
+    <section class="seccion seccion--media" id="trabajos">
+      <div class="contenedor">
+        <div class="cabecera-seccion cabecera-seccion--trabajos">
+          <div>
+            <span class="indice-seccion" id="trab03"></span>
+            <h2 class="titular-lg" id="trabTitulo"></h2>
+          </div>
+          <div class="filtros" id="filtros" role="group" aria-label="Filtrar por categoría"></div>
+        </div>
+
+        <div class="galeria" id="galeria"></div>
+        <p class="texto-tenue vacio" id="vacio" hidden></p>
+
+        <div class="barra-behance">
+          <span class="barra-behance__texto">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h16v16H4zM4 12h16M12 4v16"/></svg>
+            <span id="behanceNota"></span>
+          </span>
+          <a class="boton boton--fantasma" id="behanceBoton" target="_blank" rel="noopener">
+            <span id="behanceBotonTexto"></span>
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M8 7h9v9"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 6. MÉTODO ===================== -->
+    <section class="seccion" id="metodo">
+      <div class="contenedor">
+        <div class="grid-metodo">
+          <div class="metodo__texto">
+            <span class="indice-seccion" id="met05"></span>
+            <h2 class="titular-lg" id="metTitulo"></h2>
+            <p class="texto-cuerpo-grande texto-tenue" id="metParrafo"></p>
+            <div class="tarjeta">
+              <span class="etiqueta-pequena texto-cobalto" id="metGarantiaTitulo"></span>
+              <p class="texto-cuerpo-md texto-tenue" id="metGarantiaTexto"></p>
+            </div>
+          </div>
+          <div class="rejilla-metodo" id="rejillaMetodo"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 7. PREGUNTAS FRECUENTES ===================== -->
+    <section class="seccion seccion--media" id="faq">
+      <div class="contenedor">
+        <div class="faq__cabecera">
+          <span class="indice-seccion" id="faq06"></span>
+          <h2 class="titular-lg" id="faqTitulo"></h2>
+          <p class="texto-cuerpo-md texto-tenue" id="faqNota"></p>
+        </div>
+        <div class="acordeon" id="acordeon"></div>
+      </div>
+    </section>
+
+    <!-- ===================== 8. CONTACTO ===================== -->
+    <section class="seccion" id="contacto">
+      <div class="resplandor resplandor--cta" aria-hidden="true"></div>
+      <div class="contenedor">
+        <div class="cta">
+          <div class="cta__texto">
+            <span class="antetitulo-cobalto" id="ctaAntetitulo"></span>
+            <h2 class="titular-lg" id="ctaTitulo"></h2>
+            <p class="texto-cuerpo-grande texto-tenue" id="ctaParrafo"></p>
+            <div class="hero__acciones">
+              <a class="boton boton--cobalto boton--grande" id="ctaWhatsapp" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z"/></svg>
+                <span id="ctaWhatsappTexto"></span>
+              </a>
+              <a class="boton boton--fantasma boton--grande" id="ctaEmail">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4zM4 6l8 7 8-7"/></svg>
+                <span id="ctaEmailTexto"></span>
+              </a>
+            </div>
+          </div>
+
+          <div class="cta__canales">
+            <span class="etiqueta-pequena texto-tenue" id="canalesTitulo"></span>
+            <a class="canal" id="canalInstagram" target="_blank" rel="noopener">
+              <span class="canal__info">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+                <span>
+                  <span class="canal__nombre">Instagram</span>
+                  <span class="canal__dato" id="canalInstagramTexto"></span>
+                </span>
+              </span>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M8 7h9v9"/></svg>
+            </a>
+            <a class="canal" id="canalBehance" target="_blank" rel="noopener">
+              <span class="canal__info">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 6h6a3 3 0 0 1 0 6H4zM4 12h7a3 3 0 0 1 0 6H4zM15 6h5M14 13a4 4 0 0 1 8 0v1h-8"/></svg>
+                <span>
+                  <span class="canal__nombre">Behance</span>
+                  <span class="canal__dato" id="canalBehanceTexto"></span>
+                </span>
+              </span>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17L17 7M8 7h9v9"/></svg>
+            </a>
+            <div class="canal__ubicacion">
+              <span class="etiqueta-pequena texto-tenue">Ubicación</span>
+              <p class="texto-cuerpo-md" id="canalUbicacion"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== PIE DE PÁGINA ===================== -->
+  <footer class="pie">
+    <div class="contenedor">
+      <div class="pie__grid">
+        <div class="pie__marca">
+          <span class="pie__nombre" id="pieNombre"></span>
+          <p class="texto-cuerpo-sm texto-tenue" id="pieDescripcion"></p>
+        </div>
+        <div class="pie__col">
+          <span class="etiqueta-pequena texto-tenue">Ubicación &amp; disponibilidad</span>
+          <p class="texto-cuerpo-md" id="pieUbicacion"></p>
+          <p class="etiqueta-pequena texto-cobalto" id="pieDisponibilidad"></p>
+        </div>
+        <div class="pie__col">
+          <span class="etiqueta-pequena texto-tenue">Presencia &amp; redes</span>
+          <a id="pieInstagram" target="_blank" rel="noopener"></a>
+          <a id="pieBehance" target="_blank" rel="noopener"></a>
+          <a id="pieEmail"></a>
+        </div>
+      </div>
+      <div class="pie__base">
+        <p class="etiqueta-pequena texto-tenue" id="pieDerechos"></p>
+        <p class="etiqueta-pequena texto-tenue" id="pieCredito"></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== VENTANA FLOTANTE (MODAL DE PROYECTO) ===================== -->
+  <dialog class="modal" id="modal" aria-labelledby="modalTitulo">
+    <button class="modal__cerrar" id="modalCerrar" type="button" aria-label="Cerrar">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M5 5l14 14M19 5L5 19"/></svg>
+    </button>
+
+    <div class="modal__visor" id="modalVisor">
+      <div class="modal__lienzo" id="modalLienzo">
+        <img id="modalImg" alt="">
+        <button class="modal__nav modal__nav--prev" id="modalPrev" type="button" aria-label="Proyecto anterior">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>
+        </button>
+        <button class="modal__nav modal__nav--next" id="modalNext" type="button" aria-label="Proyecto siguiente">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+      <div class="modal__miniaturas" id="modalMiniaturas" hidden></div>
+    </div>
+
+    <div class="modal__info" id="modalInfo">
+      <p class="etiqueta-pequena texto-cobalto" id="modalCategoria"></p>
+      <h3 class="modal__titulo" id="modalTitulo"></h3>
+      <p class="texto-cuerpo-md texto-tenue" id="modalDescripcion"></p>
+      <dl class="modal__datos" id="modalDatos"></dl>
+      <a class="boton boton--cobalto" id="modalEnlace" target="_blank" rel="noopener" hidden></a>
+    </div>
+  </dialog>
+
+  <noscript>
+    <p style="padding:6rem 1.5rem;text-align:center">Activa JavaScript en tu navegador para ver este portafolio.</p>
+  </noscript>
+
+  <!-- El orden importa: primero los datos, después la lógica. -->
+  <script src="contenido.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
