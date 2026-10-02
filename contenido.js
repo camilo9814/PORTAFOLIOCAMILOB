@@ -282,9 +282,11 @@ const PROYECTOS = [
     imagen: "imagenes/galeria/retoque/retoque-femenino.jpg",
     etiqueta: "Retoque Editorial",
     meta: "Moda • Publicidad • 2026",
-    descripcion: "Qué hiciste, para quién y cómo.",
+    descripcion: "Limpieza avanzada y suavizado digital de la piel preservando su textura natural. Modelado estético mediante herramienta licuar y corrección selectiva de color en prendas para fidelidad de marca.",
     anio: "2026",
     herramientas: "Photoshop"
+    galeria: [
+   
   },
   {
     titulo: "Prop 3D para videojuego",
