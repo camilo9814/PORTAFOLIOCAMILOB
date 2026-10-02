@@ -276,13 +276,13 @@ const PROYECTOS = [
     anio: "2025",
     herramientas: "Blender"
   },
-  {
-    titulo: "Retoque Modelo Femenino",
+    {
+    titulo: "Retoque modelo femenino",
     categoria: "retoque",
-    imagen: "imagenes/galeria/retoque/retoque-femenino.svg",
-    etiqueta: "Beauty Retouch",
-    meta: "Beauty • High-End",
-    descripcion: "Texto de ejemplo. Describe el trabajo de piel, color y luz.",
+    imagen: "imagenes/galeria/retoque/retoque-femenino.jpg",
+    etiqueta: "Retoque Editorial",
+    meta: "Moda • Publicidad • 2026",
+    descripcion: "Qué hiciste, para quién y cómo.",
     anio: "2026",
     herramientas: "Photoshop"
   },
