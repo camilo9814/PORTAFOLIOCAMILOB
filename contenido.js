@@ -286,7 +286,7 @@ const PROYECTOS = [
     anio: "2026",
     herramientas: "Photoshop"
     galeria: [
-   
+      "imagenes/galeria/retoque/retoque-femenino1.jpg",
   },
   {
     titulo: "Prop 3D para videojuego",
