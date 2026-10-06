@@ -314,7 +314,7 @@ const PROYECTOS = [
   {
     titulo: "Retoque Masculino",
     categoria: "retoque",
-    imagen: "imagenes/galeria/retoque/retoque-masculino.svg",
+    imagen: "imagenes/galeria/retoque/retoque-masculino.jpg",
     etiqueta: "Retoque Comercial",
     meta: "Editorial Publicitaria",
     descripcion: "Texto de ejemplo. Describe la corrección cromática y el equilibrio de tonos.",
