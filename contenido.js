@@ -321,8 +321,7 @@ const PROYECTOS = [
     anio: "2024",
     herramientas: "Photoshop",
     galeria: [
-      "imagenes/galeria/retoque/retoque-masculino1.jpg",
-      "imagenes/galeria/retoque/retoque-masculino.jpg"
+      "imagenes/galeria/retoque/retoque-masculino1.jpg"
     ]
   },
   {
