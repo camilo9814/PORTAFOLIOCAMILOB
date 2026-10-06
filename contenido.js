@@ -314,18 +314,16 @@ const PROYECTOS = [
   {
     titulo: "Retoque Masculino",
     categoria: "retoque",
-    imagen: "imagenes/galeria/retoque/retoque-masculino.svg",
+    imagen: "imagenes/galeria/retoque/retoque-masculino.jpg",
     etiqueta: "Retoque Comercial",
     meta: "Editorial Publicitaria",
     descripcion: "Texto de ejemplo. Describe la corrección cromática y el equilibrio de tonos.",
     anio: "2024",
-    herramientas: "Photoshop"
+    herramientas: "Photoshop",
     galeria: [
-      "imagenes/galeria/retoque/retoque-masculino.jpg",
       "imagenes/galeria/retoque/retoque-masculino1.jpg"
-    ]
+    ], 
   }, 
-  },
   {
     titulo: "Identidad de Marca",
     categoria: "branding",
