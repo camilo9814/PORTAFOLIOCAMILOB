@@ -320,6 +320,11 @@ const PROYECTOS = [
     descripcion: "Texto de ejemplo. Describe la corrección cromática y el equilibrio de tonos.",
     anio: "2024",
     herramientas: "Photoshop"
+    galeria: [
+      "imagenes/galeria/retoque/retoque-masculino.jpg",
+      "imagenes/galeria/retoque/retoque-masculino1.jpg"
+    ]
+  }, 
   },
   {
     titulo: "Identidad de Marca",
