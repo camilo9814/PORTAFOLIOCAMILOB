@@ -80,7 +80,7 @@ const HERO = {
    ================================================================== */
 const PERFIL_SECCION = {
   indice: "01 / Perfil & Visión",
-  imagen: "imagenes/sobre-mi/perfil.svg",
+  imagen: "imagenes/sobre-mi/foto-perfil1.jpg",
   fichaNombre: "Camilo Andrés Barba",
   fichaRol: "3D Lead & Digital Retoucher",
   fichaUbicacion: "BOG / COL",
