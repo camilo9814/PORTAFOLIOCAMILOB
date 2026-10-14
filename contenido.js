@@ -63,12 +63,12 @@ const HERO = {
     titulo: "Portadas Moda & Beauty Editorial — High-End Retouching"
   },
   piezaLateral1: {
-    imagen: "imagenes/hero/lateral-1.svg",
-    etiqueta: "Retoque Publicitario",
-    titulo: "Portadas Moda & Campaña"
+    imagen: "imagenes/hero/indetidad-marca.jpeg",
+    etiqueta: "Identidad de Marca",
+    titulo: "Identidad"
   },
   piezaLateral2: {
-    imagen: "imagenes/hero/lateral-2.svg",
+    imagen: "imagenes/hero/props-cascos.jpeg",
     etiqueta: "Hard Surface 3D",
     titulo: "Prototipo de Casco — PBR Texturing"
   }
