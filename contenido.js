@@ -57,7 +57,7 @@ const HERO = {
 
   // Las 3 imágenes de la vitrina de inicio (1 grande + 2 pequeñas).
   piezaPrincipal: {
-    imagen: "imagenes/hero/principal.svg",
+    imagen: "imagenes/hero/portada-portadas.jpeg",
     etiqueta: "Retoque Publicitario & Moda",
     meta: "Separación de frecuencias / Dodge & Burn / Micro-textura",
     titulo: "Portadas Moda & Beauty Editorial — High-End Retouching"
