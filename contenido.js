@@ -266,7 +266,7 @@ const PROYECTOS = [
   {
     titulo: "Objeto en volumen — Producto 3D",
     categoria: "modelado3d",
-    imagen: "imagenes/galeria/modelado3d/producto.svg",
+    imagen: "imagenes/galeria/modelado3d/producto.jpg",
     etiqueta: "CGI / Blender",
     meta: "Automotriz • Behance",
     descripcion: "Texto de ejemplo. Describe el modelo, la iluminación y los materiales que trabajaste.",
@@ -276,7 +276,7 @@ const PROYECTOS = [
   {
     titulo: "Diseño de Interior 3D",
     categoria: "modelado3d",
-    imagen: "imagenes/galeria/modelado3d/archviz.svg",
+    imagen: "imagenes/galeria/modelado3d/interior-3D.jpg",
     etiqueta: "Archviz 3D",
     meta: "Interiorismo • Blender",
     descripcion: "Texto de ejemplo. Habla de la iluminación volumétrica y las texturas PBR de la escena.",
@@ -299,7 +299,7 @@ const PROYECTOS = [
   {
     titulo: "Prop 3D para videojuego",
     categoria: "modelado3d",
-    imagen: "imagenes/galeria/modelado3d/prop-videojuego.svg",
+    imagen: "imagenes/galeria/modelado3d/prop-videojuego.jpg",
     etiqueta: "Game Asset / 3D",
     meta: "Hard Surface",
     descripcion: "Texto de ejemplo. Cuenta el proceso de texturizado y el desgaste de bordes.",
