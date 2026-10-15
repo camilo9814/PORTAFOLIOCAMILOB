@@ -25,7 +25,7 @@ const PERFIL = {
   lineaMarca: "Retoque & Modelador 3D — Bogotá",
 
   // Correo, WhatsApp y redes. Deja "" en whatsapp si no quieres botón de WhatsApp.
-  email: "tucorreo@ejemplo.com",                       // ← CAMBIA ESTE CORREO
+  email: "camiloandres9814“gmail.com",                       // ← CAMBIA ESTE CORREO
   whatsapp: "https://wa.me/573197167140",               // ← CAMBIA ESTE NÚMERO (código país + número, sin + ni espacios)
   instagram: "https://www.instagram.com/camilo9814/",
   instagramUsuario: "@camilo9814",
