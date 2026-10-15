@@ -229,7 +229,7 @@ const PROYECTOS = [
   {
     titulo: "Montajes",
     categoria: "fondosIA",
-    imagen: "imagenes/galeria/montajes/Montaje-1.jpg",
+    imagen: "imagenes/galeria/montajes/portada-montajes.jpg",
     etiqueta: "Montaje con Fondo IA",
     meta: "Composite • Dirección de Arte • 2026",
     tamano: "ancha",
@@ -237,6 +237,7 @@ const PROYECTOS = [
     anio: "2026",
     herramientas: "Photoshop, IA Generativa",
     galeria: [
+      "imagenes/galeria/montajes/Montaje-1.jpg",
       "imagenes/galeria/montajes/Montaje-2.jpg",
       "imagenes/galeria/montajes/Montaje-3.jpg",
       "imagenes/galeria/montajes/Montaje-4.jpg",
