@@ -309,7 +309,7 @@ const PROYECTOS = [
   {
     titulo: "Retrato — Dibujo Realismo",
     categoria: "ilustracion",
-    imagen: "imagenes/galeria/ilustracion/retrato.svg",
+    imagen: "imagenes/galeria/ilustracion/retrato.jpg",
     etiqueta: "Ilustración Realista",
     meta: "Arte Digital • Retrato",
     descripcion: "Texto de ejemplo. Cuenta el proceso creativo detrás de esta ilustración.",
@@ -332,7 +332,7 @@ const PROYECTOS = [
   {
     titulo: "Identidad de Marca",
     categoria: "branding",
-    imagen: "imagenes/galeria/branding/identidad.svg",
+    imagen: "imagenes/galeria/branding/identidad.jpg",
     etiqueta: "Identidad de Marca",
     meta: "Branding • Papelería",
     descripcion: "Texto de ejemplo. Resume el encargo del cliente y la solución de diseño.",
