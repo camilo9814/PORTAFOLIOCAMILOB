@@ -237,11 +237,11 @@ const PROYECTOS = [
     anio: "2026",
     herramientas: "Photoshop, IA Generativa",
     galeria: [
-      "imagenes/galeria/montajes/montaje-2.jpg",
-      "imagenes/galeria/montajes/montaje-3.jpg",
-      "imagenes/galeria/montajes/montaje-4.jpg",
-      "imagenes/galeria/montajes/montaje-5.jpg",
-      "imagenes/galeria/montajes/montaje-6.jpg"
+      "imagenes/galeria/montajes/Montaje-2.jpg",
+      "imagenes/galeria/montajes/Montaje-3.jpg",
+      "imagenes/galeria/montajes/Montaje-4.jpg",
+      "imagenes/galeria/montajes/Montaje-5.jpg",
+      "imagenes/galeria/montajes/Montaje-6.jpg"
     ]
   },
   {
