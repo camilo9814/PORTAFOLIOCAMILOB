@@ -229,7 +229,7 @@ const PROYECTOS = [
   {
     titulo: "Montajes",
     categoria: "fondosIA",
-    imagen: "imagenes/galeria/montajes/montaje-1.jpg",
+    imagen: "imagenes/galeria/montajes/Montaje-1.jpg",
     etiqueta: "Montaje con Fondo IA",
     meta: "Composite • Dirección de Arte • 2026",
     tamano: "ancha",
